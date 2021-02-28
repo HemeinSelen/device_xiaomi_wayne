@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit device config for Project-Awaken
+# inherit device config for PixelPlusUI
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_wayne.mk
+    $(LOCAL_DIR)/aosp_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_wayne-eng \
-    awaken_wayne-userdebug \
-    awaken_wayne-user
+    aosp_wayne-eng \
+    aosp_wayne-userdebug \
+    aosp_wayne-user
